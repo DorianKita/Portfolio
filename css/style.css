@@ -11,3 +11,8 @@ a {
 html {
     scroll-behavior: smooth;
 }
+
+.thx {
+    font-size: 40px;
+    color: red;
+}
