@@ -5,25 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dorian Kita</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <div id="home"></div>
     <div class="wrapper">
+
+        <!-- header -->
         <header>
             <img src="" alt="" class="nav_logo">
             <h1 class="nav_name">Dorian Kita</h1>
             <nav>
-                <button id="home" class="home">Home</button>
-                <button id="about_me" class="about_me">About Me</button>
-                <button id="projects" class="projects">My Projects</button>
-                <button id="contact" class="contact">Contact Me</button>
+                <a href="#home" class="home">Home</a>
+                <a href="#about_me" class="about_me">About Me</a>
+                <a href="#projects" class="projects">My Projects</a>
+                <a href="#contact" class="contact">Contact Me</a>
             </nav>
         </header>
     </div>
+    <div class="parallax_bgi"></div>
 
+    <!-- about me -->
+    <main id="about_me" class="about_me">
+        <aside class="photo">
+            <img class="main_photo" src="" alt="">
+        </aside>
+        <div class="about_me_wrapper">
+            <h2>About Me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tenetur aperiam ullam voluptatem
+                perspiciatis modi, dignissimos, ipsum eveniet inventore pariatur, cumque vitae. Tempora animi ipsam sed
+                excepturi, cupiditate minima assumenda!</p>
+            <div class="skills">
+                <h2>Skills</h2>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JAVASCRIPT</p>
+                <p>SOCIAL</p>
+                <p>REACT</p>
+            </div>
+            <div class="goals">
+                <h2>Future goals</h2>
+                <p>Node js</p>
+                <p>Python</p>
+                <p>Backend</p>
+            </div>
+        </div>
+    </main>
 
-    <script src="app.js"></script>
+    <div class="parallax_bgi"></div>
+
+    <!-- projects -->
+
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
