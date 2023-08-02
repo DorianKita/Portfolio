@@ -12,16 +12,71 @@ html {
     scroll-behavior: smooth;
 }
 
-.thx {
-    font-size: 40px;
-    color: red;
-    margin: 20px;
+body {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
 }
 
-.go-back {
-    font-size: 24px;
-    background-color: black;
-    color: white;
-    padding: 10px 5px;
-    margin-top: 50px;
+/* navigation */
+
+header {
+    display: flex;
+    margin: 10px auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-img {
+    width: 60px;
+    height: 60px;
+    border-radius: .75rem;
+}
+
+.nav-title {
+    display: flex;
+    margin-left: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-name>a {
+    margin-left: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links {
+    margin-right: 4rem;
+    width: 50rem;
+}
+
+.nav-links>nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links>nav>a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+
+.nav-links>nav>a:hover {
+    color: #9A2462;
+    box-shadow: 0 3px 0px #DDC63D;
+}
+
+/* about me */
