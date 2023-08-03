@@ -140,9 +140,9 @@ header {
 
 .about-me {
     display: flex;
-    height: 70vh;
+    min-height: 70vh;
     padding: 5rem 0 2rem 0;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .about-me-wrapper {
@@ -161,24 +161,40 @@ header {
 .photo>img {
     width: 30vh;
     height: 30vh;
-    margin: 3rem 0 0 20rem;
+    margin: 3rem 0 0 10rem;
 }
 
 .skills-wrapper {
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
-    margin-right: 10rem;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
 }
 
 .skills>h2,
 .goals>h2 {
     margin-bottom: 1rem;
+    margin-left: 5rem;
     font-family: 'Rajdhani', sans-serif;
     color: #DE5C00;
 }
 
-.skills>p,
-.goals>p {
-    margin-bottom: 1rem;
+.icons-container>div {
+    display: flex;
+    align-items: center;
+}
+
+.icons-container>div>img {
+    margin-right: .5rem;
+    margin-bottom: .25rem;
+}
+
+.icons-container>div>p {
+    margin-right: .3rem;
 }
