@@ -1,7 +1,6 @@
 /* used fonts
     nav links : font-family: 'Rajdhani', sans-serif;
-    hero text : font-family: 'Playfair Display',
-    serif;
+    hero text : font-family: 'Playfair Display', sans-serif;
 */
 
 * {
@@ -158,6 +157,10 @@ header {
     margin-bottom: 1rem;
 }
 
+.about-me-wrapper>p {
+    font-family: 'Playfair Display', sans-serif;
+}
+
 .photo>img {
     width: 30vh;
     height: 30vh;
@@ -197,4 +200,6 @@ header {
 
 .icons-container>div>p {
     margin-right: .3rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
 }
