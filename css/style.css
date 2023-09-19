@@ -19,6 +19,7 @@ html {
 
 body {
     margin: 0 auto;
+    /* background-image: url("/img/background/bgc-image-hero.png"); */
 }
 
 /* navigation */
@@ -119,7 +120,8 @@ header {
 
 .hero-projects,
 .hero-contact,
-.project-btn {
+.project-btn,
+.form-button {
     padding: 10px 20px;
     margin: 0 25px 0 0;
     border: none;
@@ -133,7 +135,8 @@ header {
 
 .hero-projects:hover,
 .hero-contact:hover,
-.project-btn:hover {
+.project-btn:hover,
+.form-button:hover {
     border: none;
     background-color: #DE5C00;
     color: #fff;
@@ -144,7 +147,7 @@ header {
 .about-me {
     display: flex;
     min-height: 91vh;
-    padding: 20rem 0 12rem 0;
+    padding: 20rem 0 0 0;
     justify-content: center;
 }
 
@@ -216,8 +219,8 @@ header {
     flex-direction: column;
     width: 70%;
     /* background-color: blueviolet; */
-    margin :0 auto;
-    padding: 1rem 2rem;
+    margin :0 auto 7rem;
+    padding: 9rem 2rem;
     align-items: center;
 }
 
@@ -250,3 +253,63 @@ header {
     text-align: center;
 }
 
+/* contact me section */
+
+.contact {
+   margin-top: 9rem;
+   padding: 3rem;
+    width: 100%;
+    text-align: center;
+    background-image: url("/img/background/bgc-image-hero.png");
+    color: #DE5C00;
+}
+
+.contact h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2rem;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.contact label{
+    margin: 0.2rem;
+    font-size: 1.3rem;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 2rem;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-button {
+    width: 10%;
+    margin: 2rem auto;
+}
+
+.socials {
+    width: 60%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.socials p{
+    margin: 1rem;
+}
+.github{
+    width: 10%;
+}
+.github > a >img{
+    width: 100%;
+}
