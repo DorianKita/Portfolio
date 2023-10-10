@@ -4,6 +4,7 @@ const txt = "Hi i'm junior web developer with passion for creating inspiring web
 
 let textIndex = 0;
 const time = 40;
+
 const addLetter = () => {
     typingText.textContent += txt[textIndex];
     textIndex++;
