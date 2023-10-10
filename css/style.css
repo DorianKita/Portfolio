@@ -116,6 +116,7 @@ header {
 
 .hero-paragraph {
     margin: 2rem 0 2rem 0;
+    height: 20vh;
 }
 
 .hero-projects,
@@ -311,9 +312,5 @@ header {
     width: 10%;
 }
 .github > a >img{
-    width: 100%;
-}
-
-.linked-in>a>img {
     width: 100%;
 }
