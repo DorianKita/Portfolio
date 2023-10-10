@@ -110,13 +110,22 @@ header {
     width: 30rem;
 }
 
+.cursor{
+    opacity: 0;
+    transition: .2s;
+}
+
+.cursor.active{
+    opacity:1;
+}
+
 .hero-motto {
     align-self: flex-start;
 }
 
-.hero-paragraph {
-    margin: 2rem 0 2rem 0;
+.machine-typing{
     height: 20vh;
+    margin: 2rem 0 2rem 0;
 }
 
 .hero-projects,
