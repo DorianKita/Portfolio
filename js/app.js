@@ -92,3 +92,34 @@ function closeModal(modal){
     overlay.classList.remove('active')
 }
 
+// slide gallery in modal
+
+const slideList = [
+'./img/projects_pics/portfolio/1.png','./img/projects_pics/portfolio/2.png',
+'./img/projects_pics/portfolio/3.png']
+
+const image = document.querySelector('img.slide');
+const forwardBtn = document.querySelector('.next');
+const backBtn = document.querySelector('.previous');
+
+// slider interface
+let active = 0;
+
+const changeSlideForward = () => { 
+    active++;
+     if(active > slideList.length -1){
+        active = 0;
+    };
+    image.src = slideList[active];
+}
+
+const changeSlideBackward = () => { 
+    active--;
+     if(active <= -1){
+        active = slideList.length -1;
+    };
+    image.src = slideList[active];
+}
+
+forwardBtn.addEventListener('click',changeSlideForward);
+backBtn.addEventListener('click',changeSlideBackward);
