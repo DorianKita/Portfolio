@@ -15,7 +15,6 @@
 
 <body>
     <div class="wrapper">
-
         <!-- header -->
         <header>
             <div class="nav-title">
@@ -133,26 +132,51 @@
         <div class="projects slider" id="projects">
             <h2>My projects</h2>
             <div class="projects-cards">
+                <!-- first card -->
                 <div class="project1">
                     <img src="./img/projects_pics/template_project.png" alt="" class="project-picture">
                         <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum, porro vel, sequi quisquam sed
                     id
                     nihil est ad excepturi voluptas ipsa totam? Necessitatibus illum, voluptate explicabo hic obcaecati
                     eius!</p>
-                    <button class="project-btn">Learn more</button>
+                    <button data-modal-target="#modal" class="project-btn">Learn more</button>
                 </div>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">Portfolio</div>
+                    <button data-close-button class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum laudantium obcaecati voluptatem rem, odio, nisi pariatur asperiores cumque laborum, temporibus quidem! Ipsa quam architecto pariatur eos sint tenetur, repellat deleniti.
+                </div>
+                </div>
+               
 
+                <!-- second card -->
                 <div class="project2">
                      <img src="./img/projects_pics/template_project.png" alt="" class="project-picture">
                          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum, porro vel, sequi quisquam sed
                     id
                     nihil est ad excepturi voluptas ipsa totam? Necessitatibus illum, voluptate explicabo hic obcaecati
                     eius!</p>
-                    <button class="project-btn">Learn more</button>
+                    <button data-modal-target="#modal" class="project-btn">Learn more</button>
+                    </div>
+                    <div class="modal" id="modal">
+                        <div class="modal-header">
+                            <div class="title">Portfolio</div>
+                            <button data-close-button class="close-btn">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum laudantium obcaecati voluptatem rem, odio, nisi
+                            pariatur asperiores cumque laborum, temporibus quidem! Ipsa quam architecto pariatur eos sint tenetur, repellat
+                            deleniti.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        
+        
         <!-- contact form -->
         <div class="contact slider" id="contact">
             <h2>Contact Me!</h2>
@@ -202,7 +226,7 @@
 
         </div>
 
-
+        <div id="overlay"></div>
     </div>
     <script src="./js/app.js"></script>
 </body>

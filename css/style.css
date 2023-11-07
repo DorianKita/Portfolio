@@ -280,6 +280,66 @@ header {
     text-align: center;
 }
 
+/* modals */
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 50%;
+    max-width: 80%;
+}
+
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.modal-header .close-btn{
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 2rem;
+
+}
+
+.modal-body{
+    padding: 10px 15px;
+}
+
+#overlay{
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    pointer-events: none;
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
 /* contact me section */
 
 .contact {
