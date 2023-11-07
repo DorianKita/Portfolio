@@ -26,12 +26,12 @@ body {
 /* slider */
 .slider {
     transform: translateX(400%);
-    transition: 0.4s ease;
+    transition: .75s ease;
 }
 
 .slider:nth-of-type(even) {
     transform: translateX(-400%);
-    transition: 0.4s ease;
+    transition: .75s ease;
 }
 
 .slider.show {
@@ -44,6 +44,7 @@ header {
     display: flex;
     margin: 10px auto;
     position: sticky;
+    z-index: 1;
     top: 0;
     left: 0;
     background-color: #fff;

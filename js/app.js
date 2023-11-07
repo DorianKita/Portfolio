@@ -36,3 +36,20 @@ setInterval(() => {
 
 
 //sliding in function
+
+const slideInSections = document.querySelectorAll('.slider')
+
+const sectionSlider = () => {
+    const slideTrigger = window.innerHeight / 6*3;
+
+    slideInSections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+
+        if(sectionTop < slideTrigger){
+            section.classList.add('show');
+        }
+    })
+}
+
+window.addEventListener('scroll', sectionSlider);
+
