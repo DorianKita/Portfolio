@@ -19,7 +19,23 @@ html {
 
 body {
     margin: 0 auto;
+    overflow-x: hidden ;
     /* background-image: url("/img/background/bgc-image-hero.png"); */
+}
+
+/* slider */
+.slider {
+    transform: translateX(400%);
+    transition: 0.4s ease;
+}
+
+.slider:nth-of-type(even) {
+    transform: translateX(-400%);
+    transition: 0.4s ease;
+}
+
+.slider.show {
+    transform: translateX(0);
 }
 
 /* navigation */
@@ -323,3 +339,4 @@ header {
 .github > a >img{
     width: 100%;
 }
+

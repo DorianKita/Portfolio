@@ -32,3 +32,7 @@ addLetter();
 setInterval(() => {
     typingCursor.classList.toggle('active');
 },500);
+
+
+
+//sliding in function
