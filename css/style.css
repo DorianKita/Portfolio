@@ -438,7 +438,7 @@ h4{
 }
 .github > a >img{
     width: 100px;
-    margin-right: 15px;
+    margin-right: 15px
 }
 
 /* temporary styles */
@@ -448,16 +448,106 @@ h4{
     margin-bottom: 30px;
 }
 
-@media  (max-width: 1700px) {
-    .about-me-wrapper{
-        margin: 0 12rem 0 4rem;
+@media (max-width: 1700px ){
+    .hero-text {
+            font-size: 20px;
+        }
+
+        .machine-typing {
+            height: 20vh;
+            margin: 2rem 0 0 0;
+        }
+
+    .form-button {
+            width: 12rem;
+        }
+}
+
+@media (max-width: 1630px) {
+
+}
+
+@media  (max-width: 1366px) {
+    .nav-title{
+        margin-left: 2rem;
     }
 
-    .skills, .goals {
-        width: 40%;
+    .hero>img{
+        margin-left: 10rem;
+    }
+
+    .hero-text{
+        margin: 0 20rem 5rem 0;
+    }
+
+    .about-me-wrapper{
+        margin: 0 5rem 0 4rem;
+        max-width: 80%;
+    }
+
+    .skills, .goals{
+        width: 100%;
     }
 
     .form-button{
         width: 12rem;
+    }
+}
+
+@media (max-width: 1260px) {
+    .nav-title {
+            font-size: 10px;
+        }
+
+    .hero-text {
+            font-size: 24px;
+            width: 40rem;
+            margin: 0 10rem 5rem 0;
+        }
+
+    .flex-buttons>a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1024px){
+    .nav-links {
+            margin-right: 2rem;
+            width: 50%;
+        }
+
+    .hero>img{
+        height: 60vh;
+    }
+
+    .photo>img{
+        width: 20vw;
+        margin: 3rem 0 0 5rem;
+    }
+
+    .about-me-wrapper>p{
+        font-size: 16px;
+    }
+
+    .icons-container>div>img{
+        scale: 0.5;
+    }
+
+    .icons-container>div>p{
+        font-size: .8rem;
+    }
+
+    .skills{
+        margin-right: 100px;
+    }
+
+    .project1,
+    .project2 {
+        width: 25rem;
+        text-align: center;
+        }
+
+    .socials{
+        width: 40%;
     }
 }
