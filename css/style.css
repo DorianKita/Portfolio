@@ -390,7 +390,7 @@ h4{
    padding: 3rem;
     width: 100%;
     text-align: center;
-    background-image: url("/img/background/bgc-image-hero.png");
+    background-image: url("../img/background/bgc-image-hero.png");
     color: #DE5C00;
 }
 
