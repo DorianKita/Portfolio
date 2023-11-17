@@ -424,7 +424,7 @@ h4{
 }
 
 .socials {
-    width: 60%;
+    width: 10%;
     margin: 1rem auto;
     display: flex;
     justify-content: center;
@@ -434,10 +434,11 @@ h4{
     margin: 1rem;
 }
 .github{
-    width: 10%;
+    width: 100%;
 }
 .github > a >img{
-    width: 100%;
+    width: 100px;
+    margin-right: 15px;
 }
 
 /* temporary styles */
