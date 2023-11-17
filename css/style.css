@@ -424,17 +424,17 @@ h4{
 }
 
 .socials {
-    width: 10%;
+    width: 30%;
     margin: 1rem auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .socials p{
     margin: 1rem;
 }
 .github{
-    width: 100%;
+    width: 25%;
 }
 .github > a >img{
     width: 100px;
