@@ -627,6 +627,7 @@ h4{
 
     .hero{
         min-height: 100vh;
+        padding-top: 2rem;
     }
 
     .hero-motto{
