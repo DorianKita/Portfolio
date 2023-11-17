@@ -662,10 +662,12 @@ h4{
 
     .about-me-wrapper{
         margin: 0;
+        margin-left: -2rem;
     }
 
     .about-me-wrapper>p{
         font-size: 20px;
+        
     }
 
     .skills-wrapper{
