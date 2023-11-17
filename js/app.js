@@ -123,3 +123,10 @@ const changeSlideBackward = () => {
 
 forwardBtn.addEventListener('click',changeSlideForward);
 backBtn.addEventListener('click',changeSlideBackward);
+
+
+const sendButton = document.querySelector('.form-button');
+
+sendButton.addEventListener('click', (e) => {
+    e.preventDefault;
+})
