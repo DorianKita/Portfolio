@@ -489,25 +489,34 @@ h4{
     .form-button{
         width: 12rem;
     }
+
+    .previous, .next {
+        bottom: 26%;
+    }
 }
 
 @media (max-width: 1260px) {
     .nav-title {
-            font-size: 10px;
-        }
+        font-size: 10px;
+    }
 
     
 
     .flex-buttons>a{
         font-size: 16px;
     }
+
+        .previous,
+        .next {
+            bottom: 27%;
+        }
 }
 
 @media (max-width:1024px){
     .nav-links {
-            margin-right: 2rem;
-            width: 50%;
-        }
+        margin-right: 2rem;
+        width: 50%;
+    }
 
     .hero>img{
         height: 60vh;
@@ -543,6 +552,11 @@ h4{
     .socials{
         width: 40%;
     }
+
+        .previous,
+        .next {
+            bottom: 36%;
+        }
 }
 
 @media (max-width:768px) {
@@ -583,13 +597,47 @@ h4{
         width: 90%;
     }
 
+    .previous,
+    .next {
+        bottom: 43%;
+    }
+
+    .previous{
+        right: 17%;
+    }
+
+    .modal-body>h4{
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 480px) and (min-width:320px){
-    body{
+    .wrapper{
         overflow: hidden;
     }
+
     
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    .hero{
+        min-height: 100vh;
+    }
+
+    .hero-motto{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .hero-motto2{
+        font-size: 1.3rem;
+    }
+
     .hero>img {
             width: 0;
             height: 0;
@@ -599,13 +647,13 @@ h4{
     .hero-text {
         font-size: 24px;
         width: 30rem;
-        min-height: 26rem;
+        min-height: 30rem;
         margin: 0 auto;
-        padding: 0 2rem;
+        padding: 4rem 2rem;
     }
 
     .flex-buttons{
-        padding-top: 4rem;
+        padding-top: 6rem;
     }
 
     .about-me{
@@ -625,8 +673,72 @@ h4{
     }
 
     .skills, .goals{
-        margin-left: -2rem;
+        margin-left: -1rem;
     }
 
+    .projects{
+        margin-bottom: -7rem;
+    }
+
+    .projects-cards{
+        flex-direction: column;
+
+    }
+
+    .project-btn{
+        margin: 0 0 3rem 0;
+    }
+
+    .project-picture, .project-picture-2{
+        margin: 2px;
+    }
     
+    .project-description{
+        margin-bottom: 20px;
+    }
+
+    .projects{
+        width: 100vw;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .form-inputs{
+        width: 100%;
+        padding: 0;
+    }
+
+    .socials{
+        flex-direction: column;
+        height: 15vh;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left:5rem;
+    }
+
+    .modal{
+        padding: 0;
+        width: 90vw;
+    }
+
+    .container img{
+        min-width: 0;
+    }
+    
+    .previous,
+    .next {
+        bottom: 50%;
+    }
+    
+        .previous {
+            right: 17%;
+        }
+    
+        .modal-body>h4 {
+            font-size: 1rem;
+        }
 }
