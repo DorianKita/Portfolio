@@ -473,11 +473,15 @@ h4{
     }
 
     .machine-typing{
-        min-height: 15vh;
+    min-height: 15vh;
     }
 
     .hero-text{
         padding-top: 5rem;
+    }
+
+    .about-me-wrapper{
+        margin: 0 10rem 0 4rem;
     }
 
     .skills, .goals{
@@ -493,6 +497,11 @@ h4{
     .hero-text {
         font-size: 2rem;
         margin-top: 25rem;
+        padding-top: 3rem;
+    }
+
+    section.hero {
+        padding-top: 0;
     }
 
     .machine-typing {
@@ -535,6 +544,12 @@ h4{
         width: 100%;
     }
 
+    .project1, .project2{
+        margin-right: 0;
+        width: 70%;
+        
+    }
+
     .form-button{
         width: 12rem;
     }
@@ -549,8 +564,13 @@ h4{
         font-size: 10px;
     }
 
+    .flex-buttons>div{
+        min-width: 70%;
+    }
+    
     .hero-text {
         margin-top: 23rem;
+        min-width: 40%;
     }
 
     .hero-motto{
@@ -634,7 +654,8 @@ h4{
     .hero>img {
         height: 55vh;
         margin-left: 3rem;
-        margin-top: 20rem;
+        margin-top: 22rem;
+        margin-right: 4rem;
     }
     
     .hero-text {
@@ -643,6 +664,9 @@ h4{
         margin: 15rem 3rem 3rem 0;
     }
 
+    .flex-buttons>div{
+        min-width: 10rem;
+    }
     .hero-motto2 {
         font-size: 1.5rem;
     }
@@ -665,6 +689,11 @@ h4{
     .project1,
     .project2 {
         width: 20rem;
+    }
+
+    #overlay{
+        width: 90vw;
+        margin-left: -15%;
     }
 
     .socials {
