@@ -130,3 +130,16 @@ const sendButton = document.querySelector('.form-button');
 sendButton.addEventListener('click', (e) => {
     e.preventDefault;
 })
+
+
+//hamburger menu
+
+const hamburgerButton = document.querySelector(".fa");
+const navigation = document.querySelector('.bscreen');
+
+
+const openMenu = () => {
+    navigation.classList.toggle('active');
+}
+
+hamburgerButton.addEventListener("click", openMenu);

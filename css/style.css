@@ -41,6 +41,10 @@ body{
 }
 /* navigation */
 
+.nav-links>.sscreen, .fa{
+    display: none;
+}
+
 header {
     display: flex;
     margin: 10px auto;
@@ -64,7 +68,6 @@ header {
     margin-left: 10rem;
     justify-content: center;
     align-items: center;
-
 }
 
 .nav-name>a {
@@ -684,6 +687,47 @@ h4{
 }
 
 @media (max-width: 480px) and (min-width:320px){
+    .nav-links>.bscreen{
+        position: absolute;
+        top: 99%;
+        right: 0%;
+        text-align: right;
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .nav-links>.active{
+        display: flex;
+    }
+
+    .nav-links>.bscreen>a{
+        margin-right: 10%;
+    }
+
+    .nav-links>.sscreen {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    
+
+    .fa {
+        display: block;
+        font-size: 2rem; 
+        margin-left: 7rem;
+        cursor: pointer;
+    }
+
+
+    .nav-title{
+        width: 20rem;
+        margin-left: 0rem;
+        padding: .3rem;
+    }
     .wrapper{
         overflow: hidden;
     }
@@ -693,6 +737,7 @@ h4{
         top: 0;
         left: 0;
         margin: 0;
+        width: 100%;
     }
 
     .hero{
