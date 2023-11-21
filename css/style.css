@@ -656,10 +656,6 @@ h4{
         overflow: hidden;
     }
 
-    .machine-typing {
-        width: 90%;
-    }
-    
     header{
         position: fixed;
         top: 0;
@@ -689,7 +685,7 @@ h4{
 
     .hero-text {
         font-size: 24px;
-        width: 30rem;
+        width: 28rem;
         min-height: 30rem;
         margin: 0 auto;
         padding: 4rem 2rem;
