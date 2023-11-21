@@ -656,6 +656,9 @@ h4{
         overflow: hidden;
     }
 
+    .machine-typing {
+        width: 90%;
+    }
     
     header{
         position: fixed;
