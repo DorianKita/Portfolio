@@ -732,7 +732,7 @@ h4{
     }
 
     .nav-links>.active{
-        display: flex;  
+        display: flex;
     }
 
     .nav-links>.bscreen>a{
@@ -778,7 +778,7 @@ h4{
         width: 100%;
     }
 
-    .hero{
+    section.hero{
         min-height: 100vh;
         padding-top: 2rem;
     }
@@ -803,7 +803,7 @@ h4{
         width: 23rem;
         height: 35rem;
         margin: 0 auto;
-        padding: 4rem 2rem;
+        padding: 10rem 2rem;
     }
 
     .flex-buttons{
@@ -857,10 +857,10 @@ h4{
         width: 100vw;
     }
 
-    #overlay {
-        width: 100vw;
-        margin-left: 0;
-    }
+        #overlay {
+            width: 100vw;
+            margin-left: 0;
+        }
 
     .contact-form{
         display: flex;
