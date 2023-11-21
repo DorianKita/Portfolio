@@ -326,7 +326,7 @@ a{
     background: none;
     outline: none;
     font-size: 2rem;
-
+    color: #000;
 }
 
 .modal-body{
@@ -699,11 +699,16 @@ h4{
     }
 
     .nav-links>.active{
-        display: flex;
+        display: flex;  
     }
 
     .nav-links>.bscreen>a{
         margin-right: 10%;
+    }
+
+    .nav-links>nav>a:hover {
+        color: #DE5C00;
+        box-shadow: none;
     }
 
     .nav-links>.sscreen {
