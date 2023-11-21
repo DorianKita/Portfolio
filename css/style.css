@@ -257,7 +257,6 @@ a{
     display: flex;
     flex-direction: column;
     width: 70%;
-    /* background-color: blueviolet; */
     margin :0 auto 7rem;
     padding: 9rem 2rem;
     align-items: center;
@@ -447,11 +446,40 @@ h4{
     margin-right: 15px
 }
 
+ input{
+    border-style: none;
+    border-radius: 5px;
+} 
+
+ textarea{
+    border-style: none;
+    border-radius: 5px;
+}
+
 /* temporary styles */
 
 .project-picture-2{
     width: 52%;
     margin-bottom: 30px;
+}
+
+@media (max-width:1921px) {
+
+    section.hero{
+        padding-top: 13rem;
+    }
+
+    .hero-text{
+        padding-top: 5rem;
+    }
+
+    .skills, .goals{
+        width: 40%;
+    }
+
+    .project1{
+        margin-right: 10rem;
+    }
 }
 
 @media (max-width: 1700px ){
@@ -470,7 +498,11 @@ h4{
     }
 
     .hero>img{
-        margin-top: 11.7rem;
+        margin-top: 13.1rem;
+    }
+
+    .project-picture{
+        scale: 1.1;
     }
 }
 
@@ -684,15 +716,15 @@ h4{
         }
 
     .hero-text {
-        font-size: 24px;
-        width: 28rem;
-        min-height: 30rem;
+        font-size: 22px;
+        width: 23rem;
+        height: 35rem;
         margin: 0 auto;
         padding: 4rem 2rem;
     }
 
     .flex-buttons{
-        padding-top: 6rem;
+        padding-top: 3rem;
     }
 
     .about-me{
@@ -723,7 +755,7 @@ h4{
 
     .projects-cards{
         flex-direction: column;
-
+        margin: 0 auto;
     }
 
     .project-btn{

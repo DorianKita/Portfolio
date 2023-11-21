@@ -40,7 +40,7 @@ setInterval(() => {
 const slideInSections = document.querySelectorAll('.slider')
 
 const sectionSlider = () => {
-    const slideTrigger = window.innerHeight / 6*3;
+    const slideTrigger = window.innerHeight / 5*3;
 
     slideInSections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
