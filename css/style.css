@@ -857,6 +857,11 @@ h4{
         width: 100vw;
     }
 
+    #overlay {
+        width: 100vw;
+        margin-left: 0;
+    }
+
     .contact-form{
         display: flex;
         flex-direction: column;
