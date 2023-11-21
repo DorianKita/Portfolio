@@ -24,7 +24,7 @@ body{
 
 
 /* slider */
-.slider {
+/* .slider {
     transform: translateX(400%);
     transition: .6s ease;
 }
@@ -32,7 +32,7 @@ body{
  .slider:nth-of-type(even) {
     transform: translateX(-400%);
     transition: .6s ease;
-}
+} */
 
 
 
@@ -493,11 +493,11 @@ h4{
     }
 }
 
-@media (max-width: 1700px ){
+@media (max-width: 1680px ){
     .hero-text {
         font-size: 2rem;
         margin-top: 25rem;
-        padding-top: 3rem;
+        padding-top: 0rem;
     }
 
     section.hero {
@@ -514,7 +514,7 @@ h4{
     }
 
     .hero>img{
-        margin-top: 13.1rem;
+        margin-top: 12rem;
     }
 
     .project-picture{
@@ -654,7 +654,7 @@ h4{
     .hero>img {
         height: 55vh;
         margin-left: 3rem;
-        margin-top: 22rem;
+        margin-top: 20rem;
         margin-right: 4rem;
     }
     
