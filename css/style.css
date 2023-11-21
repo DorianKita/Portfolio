@@ -23,17 +23,17 @@ body{
 
 
 
-/* slider */
-/* .slider {
+/* slider  */
+.slider {
     transform: translateX(400%);
     transition: .6s ease;
+    
 }
 
- .slider:nth-of-type(even) {
+.slider:nth-of-type(even) {
     transform: translateX(-400%);
     transition: .6s ease;
-} */
-
+}
 
 
 .slider.show {
@@ -722,8 +722,8 @@ h4{
 @media (max-width: 480px) and (min-width:320px){
     .nav-links>.bscreen{
         position: absolute;
-        top: 99%;
-        right: 0%;
+        top: 100%;
+        right: 0;
         text-align: right;
         display: none;
         flex-direction: column;
