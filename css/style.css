@@ -24,21 +24,15 @@ body{
 
 
 /* slider  */
-.slider {
-    transform: translateX(400%);
-    transition: .6s ease;
-    
+/* .slider{
+    transform: translateX(200%);
 }
 
-.slider:nth-of-type(even) {
-    transform: translateX(-400%);
-    transition: .6s ease;
-}
-
-
-.slider.show {
+.slider.show{
     transform: translateX(0);
-}
+    transition: .6s;
+} */
+
 /* navigation */
 
 .nav-links>.sscreen, .fa{

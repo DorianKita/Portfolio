@@ -37,22 +37,23 @@ setInterval(() => {
 
 //sliding in function
 
-const slideInSections = document.querySelectorAll('.slider')
+// const slideInSections = document.querySelectorAll('.slider')
 
-function sectionSlider () {
+
+// function sectionSlider () {
     
-    const slideTrigger = window.innerHeight / 5*4;
+//     const slideTrigger = window.innerHeight / 5*4;
 
-    slideInSections.forEach(section => {
-        const sectionTop = section.getBoundingClientRect().top;
+//     slideInSections.forEach(section => {
+//         const sectionTop = section.getBoundingClientRect().top;
 
-        if(sectionTop < slideTrigger){
-            section.classList.add('show');
-        } 
-    })
-}
+//         if(sectionTop < slideTrigger){
+//             section.classList.add('show');
+//         } 
+//     })
+// }
 
-window.addEventListener('scroll', sectionSlider);
+// window.addEventListener('scroll', sectionSlider);
 
 
 // projects modals
