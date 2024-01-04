@@ -186,7 +186,7 @@ a{
     color: #fff;
 }
 
-/* skills */
+/* skills section */
 .skills-wrapper{
     display: flex;
     flex-direction: column;
@@ -283,15 +283,15 @@ a{
 .about-me {
     display: flex;
     flex-direction: column;
-    min-height: 91vh;
-    padding: 5rem 0 0 0;
     justify-content: center;
+    width: 80%;
+    margin: 5rem auto;
 }
 
 .about-me-section{
     display: flex;
-    margin:0 auto;
-    width: 80%;
+    margin:auto;
+    width: 90%;
 }
 
 .about-me-wrapper {
@@ -302,11 +302,10 @@ a{
 }
 
 .about-me>h2 {
-    font-family: var(--main-font);
+   font-family: var(--main-font);
     color: var(--main-color);
-    margin-bottom: 1rem;
-    width: 80%;
-    margin: 0 auto 30px;
+    margin:0 auto 4rem;
+    width: 90%;
 }
 
 .about-me-wrapper>p {
@@ -318,6 +317,8 @@ a{
     width: 30vh;
     height: 30vh;
 }
+
+/* future goals section */
 
 /* projects section */
 
