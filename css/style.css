@@ -173,6 +173,10 @@ header {
     display: inline;
 }
 
+.project-btn{
+    margin:0;
+}
+
 a{
     color: black;
 }
@@ -204,6 +208,7 @@ a{
 .skills{
     display: flex;
     justify-content: space-around;
+    flex-grow: 1;
 }
 
 
@@ -350,49 +355,49 @@ a{
 .goals-img1{
     width: 200px;
     grid-row-start: 1;
-    grid-column-start: 1;
+    grid-column-start: 5;
     grid-row-end: 4;
-    grid-column-end: 4;
+    grid-column-end:9;
 }
 
 .goals-img2 {
     width: 150px;
-    grid-row-start: 4;
-    grid-column-start: 10;
-    grid-row-end: 7;
-    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-column-start: 9;
+    grid-row-end: 9;
+    grid-column-end: 12;
 }
 
 .goals-img3 {
     width: 100px;
-    grid-row-start: 6;
-    grid-column-start: 4;
-    grid-row-end: 8;
-    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 3;
 }
 
 .goals-img4 {
-    width: 200px;
+    width: 100px;
     grid-row-start: 8;
-    grid-column-start: 7;
-    grid-row-end: 12;
-    grid-column-end: 11;
+    grid-column-start: 6;
+    grid-row-end: 10;
+    grid-column-end: 8;
 }
 
 .goals-img5 {
     width: 150px;
-    grid-row-start: 9;
+    grid-row-start: 7;
     grid-column-start: 2;
-    grid-row-end: 12;
+    grid-row-end: 10;
     grid-column-end: 5;
 }
 
 .goals-img6 {
     width: 100px;
-    grid-row-start: 2;
-    grid-column-start: 7;
-    grid-row-end: 4;
-    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-column-start: 10;
+    grid-row-end: 5;
+    grid-column-end: 12;
 }
 
 
@@ -690,7 +695,7 @@ h4{
         }
 
         .goals{
-            justify-content: center;
+            justify-content: space-between;
             margin-left: 6rem;
         }
 
@@ -706,7 +711,7 @@ h4{
             grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
         }
         .skills-img1 {
-            width: 150px;
+            width: 130px;
             grid-row-start: 1;
             grid-column-start: 1;
             grid-row-end: 4;
@@ -754,7 +759,7 @@ h4{
         }
     
         .skills-img7 {
-            width: 150px;
+            width: 140px;
             grid-row-start: 8;
             grid-column-start: 8;
             grid-row-end: 11;
@@ -769,53 +774,53 @@ h4{
             grid-column-end: 4;
         }
 
-        .goals-img1 {
-            width: 150px;
-            grid-row-start: 1;
-            grid-column-start: 1;
-            grid-row-end: 4;
-            grid-column-end: 4;
-        }
+                .goals-img1 {
+                    width: 200px;
+                    grid-row-start: 1;
+                    grid-column-start: 5;
+                    grid-row-end: 4;
+                    grid-column-end: 9;
+                }
         
-        .goals-img2 {
-            width: 100px;
-            grid-row-start: 5;
-            grid-column-start: 7;
-            grid-row-end: 7;
-            grid-column-end: 9;
-        }
+                .goals-img2 {
+                    width: 150px;
+                    grid-row-start: 6;
+                    grid-column-start: 9;
+                    grid-row-end: 9;
+                    grid-column-end: 12;
+                }
         
-        .goals-img3 {
-            width: 100px;
-            grid-row-start: 5;
-            grid-column-start: 3;
-            grid-row-end: 7;
-            grid-column-end: 5;
-        }
-
-        .goals-img4 {
-            width: 100px;
-            grid-row-start: 8;
-            grid-column-start: 8;
-            grid-row-end: 10;
-            grid-column-end: 10;
-        }
+                .goals-img3 {
+                    width: 100px;
+                    grid-row-start: 3;
+                    grid-column-start: 1;
+                    grid-row-end: 5;
+                    grid-column-end: 3;
+                }
         
-        .goals-img5 {
-            width: 100px;
-            grid-row-start: 8;
-            grid-column-start: 2;
-            grid-row-end: 10;
-            grid-column-end: 5;
-        }
+                .goals-img4 {
+                    width: 100px;
+                    grid-row-start: 8;
+                    grid-column-start: 6;
+                    grid-row-end: 10;
+                    grid-column-end: 8;
+                }
         
-        .goals-img6 {
-            width: 100px;
-            grid-row-start: 2;
-            grid-column-start: 6;
-            grid-row-end: 4;
-            grid-column-end: 8;
-        }
+                .goals-img5 {
+                    width: 150px;
+                    grid-row-start: 7;
+                    grid-column-start: 2;
+                    grid-row-end: 10;
+                    grid-column-end: 5;
+                }
+        
+                .goals-img6 {
+                    width: 100px;
+                    grid-row-start: 3;
+                    grid-column-start: 10;
+                    grid-row-end: 5;
+                    grid-column-end: 12;
+                }
 
     .project1, .project2{
         margin-right: 0;
@@ -838,13 +843,163 @@ h4{
 
 }
 
+@media (max-width:1550px) {
+    .hero-text{
+        min-width: 40%;
+    }
+
+    .skills{
+        justify-content: space-between;
+        width: 95%;
+    }
+}
+
+@media (max-width:1367px) {
+
+    .icons-container {
+            grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+        }
+
+        .dev-anim {
+            width: 50%;
+        }
+   
+    .skills-img1 {
+            width: 120px;
+            grid-row-start: 1;
+            grid-column-start: 1;
+            grid-row-end: 4;
+            grid-column-end: 4;
+        }
+    
+        .skills-img2 {
+            width: 100px;
+            grid-row-start: 3;
+            grid-column-start: 4;
+            grid-row-end: 5;
+            grid-column-end: 6;
+        }
+    
+        .skills-img3 {
+            width: 100px;
+            grid-row-start: 1;
+            grid-column-start: 7;
+            grid-row-end: 3;
+            grid-column-end: 9;
+        }
+    
+        .skills-img4 {
+            width: 100px;
+            grid-row-start: 4;
+            grid-column-start: 7;
+            grid-row-end: 7;
+            grid-column-end: 10;
+        }
+    
+        .skills-img5 {
+            width: 70px;
+            grid-row-start: 5;
+            grid-column-start: 2;
+            grid-row-end: 7;
+            grid-column-end: 4;
+        }
+    
+        .skills-img6 {
+            width: 70px;
+            grid-row-start: 6;
+            grid-column-start: 5;
+            grid-row-end: 8;
+            grid-column-end: 7;
+        }
+    
+        .skills-img7 {
+            width: 100px;
+            grid-row-start: 7;
+            grid-column-start: 7;
+            grid-row-end: 10;
+            grid-column-end: 11;
+        }
+    
+        .skills-img8 {
+            width: 100px;
+            grid-row-start: 7;
+            grid-column-start: 2;
+            grid-row-end: 10;
+            grid-column-end: 4;
+        }
+    
+        .goals-img1 {
+            width: 150px;
+            grid-row-start: 1;
+            grid-column-start: 4;
+            grid-row-end: 4;
+            grid-column-end: 7;
+        }
+    
+        .goals-img2 {
+            width: 100px;
+            grid-row-start: 6;
+            grid-column-start: 7;
+            grid-row-end: 9;
+            grid-column-end: 9;
+        }
+    
+        .goals-img3 {
+            width: 100px;
+            grid-row-start: 2;
+            grid-column-start: 1;
+            grid-row-end: 4;
+            grid-column-end: 3;
+        }
+    
+        .goals-img4 {
+            width: 100px;
+            grid-row-start: 7;
+            grid-column-start: 4;
+            grid-row-end: 9;
+            grid-column-end: 6;
+        }
+    
+        .goals-img5 {
+            width: 100px;
+            grid-row-start: 5;
+            grid-column-start: 2;
+            grid-row-end: 7;
+            grid-column-end: 5;
+        }
+    
+        .goals-img6 {
+            width: 70px;
+            grid-row: 3;
+            grid-column: 8;
+        }
+
+        .skills{
+            width: 90%;
+        }
+
+        .photo>img {
+            width: 25vh;
+            height: 25vh;
+        }
+
+        .about-me-wrapper>p{
+            font-size: 1.1rem;
+        }
+
+        .previous,.next{
+            bottom: 21%;
+        }
+}
+
 @media (max-width: 1260px) {
     .nav-title {
         font-size: 10px;
     }
 
    .nav-links{
-    margin-right: 2%;
+        margin-right: 2%;
    }
 
     .flex-buttons>div{
@@ -852,40 +1007,49 @@ h4{
     }
     
     .hero-text {
-        margin-top: 20rem;
-        min-width: 40%;
+        margin-top: 8rem;
+        min-width: 35%;
     }
 
     .hero-motto{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     
     .hero-motto2{
         font-size: 2rem;
     }
 
+    .hero-paragraph{
+        font-size: 1.7rem;
+    }
+
     .flex-buttons {
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     .flex-buttons>a{
         font-size: 16px;
     }
 
-    .photo>img{
-        margin: 3rem 0 0 4rem;
-    }
-
     .previous,
     .next {
-        bottom: 27%;
+        bottom: 22%;
+    }
+
+    .contact{
+        height: 70vh;
+
     }
 }
 
-@media (max-width:1024px){
+@media (max-width:1025px){
     .nav-links {
         margin-right: 2rem;
         width: 50%;
+    }
+
+    section.hero{
+        padding-top: 0rem;
     }
 
     .hero-text {
@@ -911,12 +1075,121 @@ h4{
         margin-top: 0rem;
     }
 
-    .photo>img{
-        width: 20vw;
-        margin: 3rem 0 0 5rem;
+    .skills-wrapper, 
+    .about-me, 
+    .goals-wrapper{
+        width: 90%;
     }
 
-    .about-me-wrapper>p{
+        .icons-container {
+            grid-template-columns: repeat(7, 50px);
+            grid-template-rows: repeat(7, 50px);
+        }
+    
+        .dev-anim {
+            width: 50%;
+        }
+    
+        .icons-container{
+            margin-top: 20px;
+        }
+        .skills-img1 {
+            width: 100px;
+            grid-row: 1;
+            grid-column: 1;
+            
+        }
+    
+        .skills-img2 {
+            width: 70px;
+            grid-row: 2;
+            grid-column: 4;
+        }
+    
+        .skills-img3 {
+            width: 80px;
+            grid-row: 1;
+            grid-column: 6;
+        }
+    
+        .skills-img4 {
+            width: 100px;
+            grid-row: 3;
+            grid-column: 6;
+        }
+    
+        .skills-img5 {
+            width: 70px;
+            grid-row: 4;
+            grid-column: 2;
+        }
+    
+        .skills-img6 {
+            width: 70px;
+            grid-row: 5;
+            grid-column: 4;
+        }
+    
+        .skills-img7 {
+            width: 80px;
+            grid-row: 6;
+            grid-column: 6;
+        }
+    
+        .skills-img8 {
+            width: 80px;
+            grid-row: 6;
+            grid-column: 2;
+        }
+    
+        .goals-img1 {
+            width: 100px;
+            grid-row-start: 1;
+            grid-column-start: 4;
+            grid-row-end: 4;
+            grid-column-end: 7;
+        }
+    
+        .goals-img2 {
+            width: 70px;
+            grid-row: 4;
+            grid-column: 6;
+        }
+    
+        .goals-img3 {
+            width: 80px;
+            grid-row: 1;
+            grid-column: 1;
+        }
+    
+        .goals-img4 {
+            width: 80px;
+            grid-row: 5;
+            grid-column: 4;
+        }
+    
+        .goals-img5 {
+            width: 100px;
+            grid-row: 3;
+            grid-column: 2;
+        }
+    
+        .goals-img6 {
+            width: 50px;
+            grid-row: 2;
+            grid-column: 7;
+        }
+
+        .goals{
+            margin-left: 5rem;
+        }
+
+    .about-me-wrapper{
+        max-width: 90%;
+        margin:0 5%;
+    }
+
+    .about-me-wrapper> p{
         font-size: 16px;
     }
 
@@ -928,8 +1201,8 @@ h4{
         font-size: .8rem;
     }
 
-    .skills{
-        margin-right: 100px;
+    .projects{
+        margin: 5rem auto 0;
     }
 
     .project1,
@@ -944,7 +1217,15 @@ h4{
 
     .previous,
     .next {
-        bottom: 36%;
+        bottom: 26%;
+    }
+
+    .contact>h2{
+        margin-top: 2rem;
+    }
+
+    .contact-wrapper{
+        margin: 5rem auto;
     }
 }
 
