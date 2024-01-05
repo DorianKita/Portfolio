@@ -403,6 +403,7 @@ a{
     justify-content: space-around;
     width: 100%;
     margin: 10rem auto 0;
+    padding-top: 5rem;
 }
 
 .projects> h2 {
@@ -427,7 +428,8 @@ a{
     justify-content: flex-end;
 }
 
-.project-picture {
+.project-picture,
+.project-picture-2 {
     width: 80%;
     margin-bottom: 2rem;
 }
@@ -541,13 +543,22 @@ h4{
 .contact {
    margin-top: 9rem;
    padding: 3rem;
-    width: 100%;
-    text-align: center;
-    background-image: url("../img/background/bgc-image-hero.png");
-    color: var(--main-color);
-    font-family: var(--main-font);
-    font-weight: bold;
+   width: 100%;
+   text-align: center;
+   background-image: url("../img/background/bgc-image-hero.png");
+   color: var(--main-color);
+   font-family: var(--main-font);
+   font-weight: bold;
 }
+
+.contact-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
 
 .contact h2{
     font-size: 2rem;
@@ -607,13 +618,6 @@ h4{
  textarea{
     border-style: none;
     border-radius: 5px;
-}
-
-/* temporary styles */
-
-.project-picture-2{
-    width: 52%;
-    margin-bottom: 30px;
 }
 
 @media (max-width:1921px) {
