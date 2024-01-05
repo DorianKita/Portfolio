@@ -198,6 +198,7 @@ a{
     color: var(--main-color);
     margin:0 auto 4rem;
     width: 90%;
+    border-bottom: 5px solid var(--main-color);
 }
 
 .skills{
@@ -286,6 +287,7 @@ a{
     justify-content: center;
     width: 80%;
     margin: 5rem auto;
+    padding-top: 5rem;
 }
 
 .about-me-section{
@@ -306,6 +308,7 @@ a{
     color: var(--main-color);
     margin:0 auto 4rem;
     width: 90%;
+    border-bottom: 5px solid var(--main-color);
 }
 
 .about-me-wrapper>p {
@@ -320,26 +323,108 @@ a{
 
 /* future goals section */
 
+.goals-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10rem auto 0;
+}
+
+.goals-wrapper>h2 {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    margin: 0 auto 4rem;
+    width: 90%;
+    border-bottom: 5px solid var(--main-color);
+}
+
+.goals {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* goals icons */
+
+.goals-img1{
+    width: 200px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 4;
+}
+
+.goals-img2 {
+    width: 150px;
+    grid-row-start: 4;
+    grid-column-start: 10;
+    grid-row-end: 7;
+    grid-column-end: 13;
+}
+
+.goals-img3 {
+    width: 100px;
+    grid-row-start: 6;
+    grid-column-start: 4;
+    grid-row-end: 8;
+    grid-column-end: 6;
+}
+
+.goals-img4 {
+    width: 200px;
+    grid-row-start: 8;
+    grid-column-start: 7;
+    grid-row-end: 12;
+    grid-column-end: 11;
+}
+
+.goals-img5 {
+    width: 150px;
+    grid-row-start: 9;
+    grid-column-start: 2;
+    grid-row-end: 12;
+    grid-column-end: 5;
+}
+
+.goals-img6 {
+    width: 100px;
+    grid-row-start: 2;
+    grid-column-start: 7;
+    grid-row-end: 4;
+    grid-column-end: 9;
+}
+
+
+
 /* projects section */
 
 .projects {
     display: flex;
     flex-direction: column;
-    margin :10rem auto;
-    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10rem auto 0;
 }
 
 .projects> h2 {
     font-family: var(--main-font);
     color: var(--main-color);
-    margin-bottom: 1rem;
-    width: 80%;
-    margin: 0 auto 30px;
+    margin: 0 auto 4rem;
+    width: 90%;
+    border-bottom: 5px solid var(--main-color);
 }
 
 .projects-cards{
+    width: 80%;
     display: flex;
-    margin-top: 4rem;
+    justify-content: space-around;
+    margin: 4rem auto;
+}
+
+.project1,
+.project2 {
+    width: 35rem;
+    text-align: center;
+    justify-content: flex-end;
 }
 
 .project-picture {
@@ -352,10 +437,7 @@ a{
     font-family: 'Playfair Display', sans-serif;
 }
 
-.project1, .project2 {
-    width: 35rem;
-    text-align: center;
-}
+
 
 /* modals */
 .modal{
@@ -547,10 +629,6 @@ h4{
     .about-me-wrapper{
         margin: 0 10rem 0 4rem;
     }
-
-    /* .skills, .goals{
-        width: 40%;
-    } */
 
     .project1{
         margin-right: 10rem;
