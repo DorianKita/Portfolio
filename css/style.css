@@ -1280,104 +1280,103 @@ footer>a{
         width: 40rem;
     }
 
-        .icons-container {
-            grid-template-columns: repeat(6, 50px);
-            grid-template-rows: repeat(6, 50px);
-            margin-top: 0;
-        }
+    .icons-container {
+        grid-template-columns: repeat(6, 50px);
+        grid-template-rows: repeat(6, 50px);
+        margin-top: 0;
+    }
 
-        .skills-img1 {
-            width: 70px;
-            grid-row: 1;
-            grid-column: 1;
+    .skills-img1 {
+        width: 70px;
+        grid-row: 1;
+        grid-column: 1;    
+    }
     
-        }
+    .skills-img2 {
+        width: 50px;
+        grid-row: 1;
+        grid-column: 3;
+    }
     
-        .skills-img2 {
-            width: 50px;
-            grid-row: 1;
-            grid-column: 3;
-        }
+    .skills-img3 {
+        width: 80px;
+        grid-row: 1;
+        grid-column: 5;
+    }
     
-        .skills-img3 {
-            width: 80px;
-            grid-row: 1;
-            grid-column: 5;
-        }
+    .skills-img4 {
+        width: 50px;
+        grid-row: 3;
+        grid-column: 4;
+    }
     
-        .skills-img4 {
-            width: 50px;
-            grid-row: 3;
-            grid-column: 4;
-        }
+    .skills-img5 {
+        width: 70px;
+        grid-row: 3;
+        grid-column: 2;
+    }
     
-        .skills-img5 {
-            width: 70px;
-            grid-row: 3;
-            grid-column: 2;
-        }
+    .skills-img6 {
+        width: 50px;
+        grid-row: 5;
+        grid-column: 3;
+    }
     
-        .skills-img6 {
-            width: 50px;
-            grid-row: 5;
-            grid-column: 3;
-        }
+    .skills-img7 {
+        width: 80px;
+        grid-row: 5;
+        grid-column: 5;
+    }
     
-        .skills-img7 {
-            width: 80px;
-            grid-row: 5;
-            grid-column: 5;
-        }
+    .skills-img8 {
+        width: 70px;
+        grid-row: 5;
+        grid-column: 1;
+    }
     
-        .skills-img8 {
-            width: 70px;
-            grid-row: 5;
-            grid-column: 1;
-        }
+    .goals-img1 {
+        width: 80px;
+        grid-row: 1;
+        grid-column: 3;
+    }
     
-        .goals-img1 {
-            width: 80px;
-            grid-row: 1;
-            grid-column: 3;
-        }
+    .goals-img2 {
+        width: 60px;
+        grid-row: 4;
+        grid-column: 5;
+    }
     
-        .goals-img2 {
-            width: 60px;
-            grid-row: 4;
-            grid-column: 5;
-        }
+    .goals-img3 {
+        width: 50px;
+        grid-row: 1;
+        grid-column: 1;
+    }
     
-        .goals-img3 {
-            width: 50px;
-            grid-row: 1;
-            grid-column: 1;
-        }
+    .goals-img4 {
+        width: 60px;
+        grid-row: 4;
+        grid-column: 3;
+    }
     
-        .goals-img4 {
-            width: 60px;
-            grid-row: 4;
-            grid-column: 3;
-        }
+    .goals-img5 {
+        width: 70px;
+        grid-row: 3;
+        grid-column: 1;
+    }
     
-        .goals-img5 {
-            width: 70px;
-            grid-row: 3;
-            grid-column: 1;
-        }
-    
-        .goals-img6 {
-            width: 50px;
-            grid-row: 2;
-            grid-column: 5;
-        }
+    .goals-img6 {
+        width: 50px;
+        grid-row: 2;
+        grid-column: 5;
+    }
 
-        .goals{
-            margin-left: 4rem;
-        }
+    .goals{
+        margin-left: 4rem;
+    }
 
-        .goals-wrapper{
-            margin: 6rem auto 0;
-        }
+    .goals-wrapper{
+        margin: 0rem auto 0;
+    }
 
     .photo>img {
         width: 0;
@@ -1480,7 +1479,7 @@ footer>a{
 
     section.hero{
         min-height: 100vh;
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
 
     .hero-motto{
@@ -1510,8 +1509,34 @@ footer>a{
         margin-top: 4rem;
     }
 
+    .icons-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills-img1,
+    .skills-img2,
+    .skills-img3,
+    .skills-img4,
+    .skills-img5,
+    .skills-img6,
+    .skills-img7,
+    .skills-img8{
+        width: 100px;
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .dev-anim{
+        display: none;
+    }
+
+
     .about-me{
         padding-top: 10rem;
+        margin: 0 auto 5rem;
     }
 
     .about-me-wrapper{
@@ -1522,14 +1547,6 @@ footer>a{
     .about-me-wrapper>p{
         font-size: 20px;
         
-    }
-
-    .skills-wrapper{
-        flex-direction: column;
-    }
-
-    .skills, .goals{
-        margin-left: -1rem;
     }
 
     .projects{
