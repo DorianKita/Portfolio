@@ -1594,37 +1594,6 @@ footer>a{
         margin-bottom: 0;
     }
 
-    #overlay {
-        width: 100vw;
-        margin-left: 0;
-    }
-
-    .contact-form{
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        align-items: center;
-        justify-content: center;
-        margin-left: .6rem;
-    }
-
-    #message{
-        width: 85%;
-    }
-
-    .form-inputs{
-        width: 100%;
-        padding: 0;
-    }
-
-    .socials{
-        flex-direction: column;
-        height: 15vh;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-left:5rem;
-    }
-
     .modal{
         padding: 0;
         width: 90vw;
@@ -1645,5 +1614,42 @@ footer>a{
     
     .modal-body>h4 {
         font-size: 1rem;
+    }
+
+    #overlay {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .contact-wrapper{
+        margin: 0 auto;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-left: .6rem;
+        
+    }
+
+    .contact label{
+        margin:0.5rem 0;
+    }
+
+    .form-inputs{
+        width: 100%;
+        padding: 0;
+    }
+
+    .socials{
+        width: 100%;
+        height: 11vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-image:url("../img/background/bgc-image-hero.png");
     }
 }
