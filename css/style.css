@@ -1651,9 +1651,7 @@ footer>a{
         justify-content: space-between;
         align-items: center;
         background-image:url("../img/background/bgc-image-hero.png");
-    }
-
-    footer{
-        margin-top: 10rem;
+        background-position: center;
+        padding: 1rem auto;
     }
 }
