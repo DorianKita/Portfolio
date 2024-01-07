@@ -1529,6 +1529,22 @@ footer>a{
         grid-row: auto;
     }
 
+    .goals{
+        margin: 0 auto;
+    }
+
+    .goals-img1,
+    .goals-img2,
+    .goals-img3,
+    .goals-img4,
+    .goals-img5,
+    .goals-img6
+    {
+        width: 100px;
+        grid-column: auto;
+        grid-row: auto;
+    }
+
     .dev-anim{
         display: none;
     }
@@ -1544,13 +1560,17 @@ footer>a{
         margin-left: -2rem;
     }
 
+    .about-me-section{
+        justify-content: center;
+    }
+
+
     .about-me-wrapper>p{
         font-size: 20px;
-        
     }
 
     .projects{
-        margin-bottom: -7rem;
+        margin:0 auto;
     }
 
     .projects-cards{
@@ -1558,26 +1578,26 @@ footer>a{
         margin: 0 auto;
     }
 
-    .project-btn{
-        margin: 0 0 3rem 0;
+    .project1{
+       margin: 3rem 0 5rem;
     }
 
-    .project-picture, .project-picture-2{
-        margin: 2px;
+    .project1, .project2{
+        width: 100%;
     }
     
     .project-description{
         margin-bottom: 20px;
     }
 
-    .projects{
-        width: 100vw;
+    .project-picture, .project-picture-2{
+        margin-bottom: 0;
     }
 
-        #overlay {
-            width: 100vw;
-            margin-left: 0;
-        }
+    #overlay {
+        width: 100vw;
+        margin-left: 0;
+    }
 
     .contact-form{
         display: flex;
