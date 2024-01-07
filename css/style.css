@@ -1654,4 +1654,7 @@ footer>a{
         background-position: center;
         padding: 1rem auto;
     }
+    footer{
+        margin-top: 2.4rem;
+    }
 }
