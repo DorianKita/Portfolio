@@ -1621,6 +1621,10 @@ footer>a{
         margin-left: 0;
     }
 
+    .contact{
+        height: auto;
+    }
+
     .contact-wrapper{
         margin: 0 auto;
     }
