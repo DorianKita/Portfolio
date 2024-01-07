@@ -1397,6 +1397,7 @@ footer>a{
 
     .about-me{
         margin: 0 auto;
+        padding: 0;
     }
 
     .photo{
@@ -1407,11 +1408,15 @@ footer>a{
     }
 
     .goals-wrapper{
-        margin: 5rem auto;
+        margin: 5rem auto 0;
     }
 
     .projects, .projects-cards{
-        margin: 0 auto;
+        margin: 0 auto 2rem;
+        padding: 0;
+    }
+    .projects-cards{
+        width: 100%;
     }
 
     .icons-container {
