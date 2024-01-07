@@ -1654,7 +1654,5 @@ footer>a{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-image:url("../img/background/bgc-image-hero.png");
-        background-position: center;
     }
 }
