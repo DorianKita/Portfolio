@@ -1413,7 +1413,7 @@ footer>a{
 
 @media (orientation: landscape) and (max-width: 900px) {
 
-    body{
+    .wrapper{
         overflow-x: hidden;
     }
 
@@ -1590,6 +1590,10 @@ footer>a{
     .linked-in, .github{
         display: flex;
         align-items: end;
+    }
+
+    .footer{
+        font-size: 1rem;
     }
 }
 
