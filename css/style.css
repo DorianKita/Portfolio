@@ -1652,4 +1652,8 @@ footer>a{
         align-items: center;
         background-image:url("../img/background/bgc-image-hero.png");
     }
+
+    footer{
+        margin-top: 10rem;
+    }
 }
