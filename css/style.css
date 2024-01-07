@@ -1413,6 +1413,10 @@ footer>a{
 
 @media (orientation: landscape) and (max-width: 900px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     .hero{
         height: 79vh;
     }
