@@ -625,13 +625,6 @@ h4{
 .socials p{
     margin: 1rem;
 }
-/* .github{
-    width: 25%;
-}
-.github > a >img{
-    width: 100px;
-    margin-right: 15px
-} */
 
  input{
     border-style: none;
@@ -1418,6 +1411,184 @@ footer>a{
     }
 }
 
+@media (orientation: landscape) and (max-width: 900px) {
+
+    .hero{
+        height: 79vh;
+    }
+
+    .hero>img{
+        scale: 1;
+    }
+
+    .hero-text{
+        max-width: 50%;
+        margin: 0 0 0 3rem ;
+    }
+
+    .hero-motto{
+        font-size: 2rem;
+    }
+
+    .hero-motto2{
+        font-size: 1.2rem;
+    }
+
+    .hero-paragraph{
+        font-size: 1rem;
+    }
+
+    .machine-typing{
+        margin:0 0 3rem 0;
+    }
+
+    .cursor {
+        font-size: 1rem;
+    }
+
+    .hero-projects, .hero-contact{
+        font-size: 0.8rem;
+    }
+
+    .skills-wrapper{
+        margin:5rem auto 0;
+    }
+
+    .about-me{
+        margin: 0 auto;
+    }
+
+    .goals-wrapper{
+        margin: 5rem auto;
+    }
+
+    .projects, .projects-cards{
+        margin: 0 auto;
+    }
+
+    .icons-container {
+        grid-template-columns: repeat(6, 50px);
+        grid-template-rows: repeat(6, 50px);
+        margin-top: 0;
+    }
+
+    .goals>.icons-container{
+        margin-top: 2.5rem;
+    }
+    
+    .skills-img1 {
+        width: 70px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    .skills-img2 {
+        width: 50px;
+        grid-row: 1;
+        grid-column: 3;
+    }
+    
+    .skills-img3 {
+        width: 80px;
+        grid-row: 1;
+        grid-column: 5;
+    }
+    
+    .skills-img4 {
+        width: 50px;
+        grid-row: 3;
+        grid-column: 4;
+    }
+    
+    .skills-img5 {
+        width: 70px;
+        grid-row: 3;
+        grid-column: 2;
+    }
+    
+    .skills-img6 {
+        width: 50px;
+        grid-row: 5;
+        grid-column: 3;
+    }
+    
+    .skills-img7 {
+        width: 80px;
+        grid-row: 5;
+        grid-column: 5;
+    }
+    
+    .skills-img8 {
+        width: 70px;
+        grid-row: 5;
+        grid-column: 1;
+    }
+    
+    .goals-img1 {
+        width: 80px;
+        grid-row: 1;
+        grid-column: 3;
+    }
+    
+    .goals-img2 {
+        width: 60px;
+        grid-row: 4;
+        grid-column: 5;
+    }
+    
+    .goals-img3 {
+        width: 50px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    .goals-img4 {
+        width: 60px;
+        grid-row: 4;
+        grid-column: 3;
+    }
+    
+    .goals-img5 {
+        width: 70px;
+        grid-row: 3;
+        grid-column: 1;
+    }
+    
+    .goals-img6 {
+        width: 50px;
+        grid-row: 2;
+        grid-column: 5;
+    }
+
+    .contact{
+        margin:0 auto;
+        height: auto;
+    }
+
+    .contact-wrapper{
+        margin:2rem auto 0;
+    }
+
+    .dev-anim{
+        margin-bottom: 7rem;
+    }
+
+    .project-picture,
+    .project-picture-2 {
+        width: 80%;
+    margin: 0;
+    }
+    
+    #first_name, #email{
+        height: 5vh;
+    }
+
+    .linked-in, .github{
+        display: flex;
+        align-items: end;
+    }
+}
+
 @media (max-width: 480px) and (min-width:320px){
     .nav-links>.bscreen{
         position: absolute;
@@ -1650,7 +1821,6 @@ footer>a{
 
     .socials{
         width: 100%;
-        height: 11vh;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
