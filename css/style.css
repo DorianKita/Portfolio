@@ -116,7 +116,7 @@ header {
 
 .hero>img {
     height: 70vh;
-    display: flex;
+    align-self: flex-end;
     margin-left: 15rem;
     margin-right: 6rem;
 }
