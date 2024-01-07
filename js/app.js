@@ -48,7 +48,7 @@ function sectionSlider () {
         const sectionTop = section.getBoundingClientRect().top;
         
         if(sectionTop < slideTrigger){
-                section.classList.add('show')
+            section.classList.add('show')
         } 
     })
 }

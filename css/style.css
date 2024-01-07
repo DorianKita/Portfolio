@@ -30,15 +30,11 @@ body{
 
 
 /* slider  */
-.slider{
+.slider:nth-of-type(2n){
     transform: translateX(200%);
 }
 
-.slider:nth-of-type(1){
-    transform: translateX(-200%);
-}
-
-.slider:nth-of-type(3) {
+.slider:nth-of-type(2n+1){
     transform: translateX(-200%);
 }
 
@@ -48,7 +44,7 @@ body{
 }
 
 .trigger{
-    height: 1vh;
+    height: 0.5vh;
 }
 
 /* navigation */
@@ -137,10 +133,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 35rem 5rem 0;
+    margin: 20rem 20rem 5rem 10rem;
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    width: 35rem;
+    width: 50rem;
     height: 60%;
 }
 
@@ -392,7 +388,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     margin: 10rem auto 0;
     padding-top: 5rem;
 }
@@ -441,7 +437,7 @@ a{
     transition: 200ms ease-in-out;
     border: 1px solid black;
     border-radius: 10px;
-    z-index: 10;
+    z-index: 90;
     background-color: white;
     width: 60%;
     max-width: 80%;
@@ -503,14 +499,14 @@ a{
 
 .next{
     position: fixed;
-        bottom: 20%;
-        right: 10%;
+    bottom: 20%;
+    right: 10%;
 }
 
 .previous{ 
     position: fixed;
-        bottom: 20%;
-        right: 15%;
+    bottom: 20%;
+    right: 15%;
 }
 
 h4{
@@ -620,6 +616,7 @@ h4{
     border-radius: 5px;
     margin: 0.2rem;
     width: 100%;
+    resize: none;
 }
 
 footer{
@@ -651,10 +648,6 @@ footer>a{
 @media (max-width: 1790px ){
     .hero-motto{
         font-size: 4rem;
-    }
-
-    .hero-text{
-        margin-top: 7rem;
     }
 }
 
@@ -812,13 +805,17 @@ footer>a{
 
 @media (max-width:1367px) {
 
-    .icons-container {
-            grid-template-columns: repeat(8, 50px);
-            grid-template-rows: repeat(8, 50px);
-        }
+    .hero-text{
+        margin:20rem 30rem 5rem 5rem;
+    }
 
-        .dev-anim {
-            width: 50%;
+    .icons-container {
+        grid-template-columns: repeat(8, 50px);
+        grid-template-rows: repeat(8, 50px);
+    }
+
+    .dev-anim {
+        width: 50%;
         }
    
     .skills-img1 {
@@ -921,6 +918,11 @@ footer>a{
         .previous,.next{
             bottom: 21%;
         }
+
+        .contact{
+            height: auto;
+        }
+
 }
 
 @media (max-width: 1260px) {
@@ -937,8 +939,8 @@ footer>a{
     }
     
     .hero-text {
-        margin-top: 8rem;
-        min-width: 35%;
+        margin:30rem 40rem 5rem 0 ;
+        min-width: 40%;
     }
 
     .hero-motto{
@@ -998,7 +1000,7 @@ footer>a{
         margin-left: 5rem;
         margin-right: 2rem;
         margin-top: 17.4rem;
-        scale: 0.9;
+        scale: 1;
     }
 
     .flex-buttons {
@@ -1596,7 +1598,7 @@ footer>a{
         width: 100%;
     }
 
-    section.hero{
+    .hero{
         min-height: 100vh;
         padding-top: 4rem;
     }
@@ -1611,10 +1613,10 @@ footer>a{
     }
 
     .hero>img {
-            width: 0;
-            height: 0;
-            margin: 0;
-        }
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
 
     .hero-text {
         font-size: 22px;
