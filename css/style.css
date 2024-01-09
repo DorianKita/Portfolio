@@ -291,6 +291,7 @@ a{
 
 .about-me-section{
     display: flex;
+    align-items: center;
     margin:auto;
     width: 90%;
 }
@@ -315,10 +316,7 @@ a{
     font-size: 1.2rem;
 }
 
-.photo>img {
-    width: 30vh;
-    height: 30vh;
-}
+
 
 /* future goals section */
 
@@ -500,13 +498,13 @@ a{
 
 .next{
     position: fixed;
-    bottom: 20%;
+    bottom: 15%;
     right: 10%;
 }
 
 .previous{ 
     position: fixed;
-    bottom: 20%;
+    bottom: 15%;
     right: 15%;
 }
 
@@ -783,7 +781,7 @@ footer>a{
     }
 
     .previous, .next {
-        bottom: 26%;
+        bottom: 17%;
     }
     
     .contact {
@@ -802,6 +800,111 @@ footer>a{
         justify-content: space-between;
         width: 95%;
     }
+
+    .projects{
+        margin:5rem auto 0;
+    }
+
+        .icons-container {
+            grid-template-columns: repeat(8, 50px);
+            grid-template-rows: repeat(8, 50px);
+        }
+
+        .icons-container:first-child{
+            margin-top: 5%;
+        }
+    
+        .dev-anim {
+            width: 50%;
+        }
+    
+        .skills-img1 {
+            width: 120px;
+            grid-row: 1;
+            grid-column: 1;
+        }
+    
+        .skills-img2 {
+            width: 100px;
+            grid-row: 3;
+            grid-column: 4;
+        }
+    
+        .skills-img3 {
+            width: 100px;
+            grid-row: 1;
+            grid-column: 7;
+        }
+    
+        .skills-img4 {
+            width: 100px;
+            grid-row: 4;
+            grid-column: 7;
+        }
+    
+        .skills-img5 {
+            width: 70px;
+            grid-row: 5;
+            grid-column: 2;
+        }
+    
+        .skills-img6 {
+            width: 70px;
+            grid-row: 6;
+            grid-column: 5;
+        }
+    
+        .skills-img7 {
+            width: 100px;
+            grid-row: 7;
+            grid-column: 7;
+        }
+    
+        .skills-img8 {
+            width: 100px;
+            grid-row: 7;
+            grid-column: 2;
+        }
+    
+        .goals-img1 {
+            width: 150px;
+            grid-row: 1;
+            grid-column: 4;
+        }
+    
+        .goals-img2 {
+            width: 100px;
+            grid-row: 6;
+            grid-column: 7;
+        }
+    
+        .goals-img3 {
+            width: 100px;
+            grid-row: 2;
+            grid-column: 1;
+        }
+    
+        .goals-img4 {
+            width: 100px;
+            grid-row: 7;
+            grid-column: 4;
+        }
+    
+        .goals-img5 {
+            width: 100px;
+            grid-row: 5;
+            grid-column: 2;
+        }
+    
+        .goals-img6 {
+            width: 70px;
+            grid-row: 3;
+            grid-column: 8;
+        }
+
+        .contact h2{
+            margin-top:5rem
+        }
 }
 
 @media (max-width:1367px) {
